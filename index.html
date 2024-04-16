@@ -1,84 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Profissional</title>
-  <style>
-    body {
-      background-color: #302e00;
-      font-family: 'Arial Narrow', sans-serif;
-    }
-    .container {
-      width: 80%;
-      margin: 0 auto;
-      background-color: #ffffcc;
-      padding: 20px;
-      border-radius: 10px;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      text-align: center;
-    }
-    .profile-img {
-      display: block;
-      margin: 0 auto;
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      margin-bottom: 20px;
-    }
-    .gallery {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-    }
-    .gallery-item {
-      flex: 0 0 30%;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-    .gallery-item img {
-      width: 100%;
-      border-radius: 5px;
-    }
-    .caption {
-      margin-top: 5px;
-      font-size: 12px;
-      color: #555;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <style>
+        body {
+            background-color: #444;
+            font-family: 'Arial Narrow', sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .intro {
+            margin-top: 50px;
+        }
+        .profile-img {
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+        .chapter {
+            margin-top: 50px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .gallery-item {
+            flex-basis: 30%;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Seu Nome</h1>
-    <img class="profile-img" src="sua_foto.jpg" alt="Sua Foto">
-    <div class="gallery">
-      <div class="gallery-item">
-        <img src="foto1.jpg" alt="Foto 1">
-        <div class="caption">Legenda 1</div>
-      </div>
-      <div class="gallery-item">
-        <img src="foto2.jpg" alt="Foto 2">
-        <div class="caption">Legenda 2</div>
-      </div>
-      <div class="gallery-item">
-        <img src="foto3.jpg" alt="Foto 3">
-        <div class="caption">Legenda 3</div>
-      </div>
-      <div class="gallery-item">
-        <img src="foto4.jpg" alt="Foto 4">
-        <div class="caption">Legenda 4</div>
-      </div>
-      <div class="gallery-item">
-        <img src="foto5.jpg" alt="Foto 5">
-        <div class="caption">Legenda 5</div>
-      </div>
-      <div class="gallery-item">
-        <img src="foto6.jpg" alt="Foto 6">
-        <div class="caption">Legenda 6</div>
-      </div>
+    <div class="container">
+        <div class="intro">
+            <h2>Sobre Mim</h2>
+            <p>Texto de introdução com 5 linhas.</p>
+        </div>
+        <hr>
+        <div class="profile-img">
+            <img src="caminho_para_a_sua_fotografia.jpg" alt="Minha Foto">
+        </div>
+        <div class="chapter">
+            <h2>Trabalhos em HTML</h2>
+            <!-- Adicione aqui os trabalhos em HTML -->
+        </div>
+        <hr>
+        <div class="chapter">
+            <h2>Trabalhos em PowerApp</h2>
+            <!-- Adicione aqui os trabalhos em PowerApp -->
+        </div>
+        <hr>
+        <div class="chapter">
+            <h2>Trabalhos em Power BI</h2>
+            <!-- Adicione aqui os trabalhos em Power BI -->
+        </div>
+        <hr>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="caminho_para_a_foto_1.jpg" alt="Foto 1">
+                <p>Legenda da Foto 1</p>
+            </div>
+            <div class="gallery-item">
+                <img src="caminho_para_a_foto_2.jpg" alt="Foto 2">
+                <p>Legenda da Foto 2</p>
+            </div>
+            <div class="gallery-item">
+                <img src="caminho_para_a_foto_3.jpg" alt="Foto 3">
+                <p>Legenda da Foto 3</p>
+            </div>
+            <div class="gallery-item">
+                <img src="caminho_para_a_foto_4.jpg" alt="Foto 4">
+                <p>Legenda da Foto 4</p>
+            </div>
+            <div class="gallery-item">
+                <img src="caminho_para_a_foto_5.jpg" alt="Foto 5">
+                <p>Legenda da Foto 5</p>
+            </div>
+            <div class="gallery-item">
+                <img src="caminho_para_a_foto_6.jpg" alt="Foto 6">
+                <p>Legenda da Foto 6</p>
+            </div>
+        </div>
     </div>
-  </div>
 </body>
 </html>
