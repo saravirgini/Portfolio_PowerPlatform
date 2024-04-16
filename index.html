@@ -10,7 +10,7 @@
         body {
             background-color: #162447;
             font-family: 'Arial Narrow', sans-serif;
-            color: #003171; /* Alterado para um tom mais escuro */
+            color: #003171;
             margin: 0;
             padding: 0;
         }
@@ -32,6 +32,10 @@
             float: left;
             margin-right: 20px;
         }
+        .profile-img img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+        }
         .intro {
             clear: left;
         }
@@ -44,10 +48,12 @@
         .gallery-item {
             display: inline-block;
             margin-right: 10px;
+            vertical-align: top; /* Alinha as imagens ao topo */
         }
         .gallery-item img {
-            max-width: 200px;
-            display: block;
+            width: 100%; /* Garante que todas as imagens tenham a mesma largura */
+            height: 200px; /* Define a altura desejada */
+            object-fit: cover; /* Mantém a proporção da imagem e corta o excesso */
         }
         .gallery-item p {
             color: #666;
