@@ -21,13 +21,14 @@
         .profile-img {
             width: 150px;
             height: 150px;
-            border-radius: 50%; /* Alterado para tornar a imagem circular */
-            overflow: hidden; /* Garante que a imagem fica dentro do círculo */
-            float: left; /* Alterado para encostar à esquerda */
-            margin-right: 20px; /* Adicionado espaço entre a imagem e o texto */
+            border-radius: 50%;
+            overflow: hidden;
+            float: left;
+            margin-right: 20px;
         }
         .intro {
             margin-top: 50px;
+            clear: left; /* Limpa o float */
         }
         .chapter {
             margin-top: 50px;
@@ -48,9 +49,9 @@
             font-size: 14px;
         }
         h2 {
-            border-bottom: 1px solid #162447; /* Alterado para linha de separação abaixo do título */
-            padding-bottom: 10px; /* Espaçamento entre o título e a linha */
-            margin-bottom: 20px; /* Espaçamento entre os capítulos */
+            border-bottom: 1px solid #162447;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
