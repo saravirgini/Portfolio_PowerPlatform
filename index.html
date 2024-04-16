@@ -1,106 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
-
+<html lang="en">
 <head>
-    <title>SV.W</title>
-    <link rel="stylesheet" href="./SVRestilos.css">
-    <script src="./SVRfuncoes.js"></script>
-    <meta charset="utf-8">
-    <meta name="description" content="travel records">
-    <meta name="keywords" content="saravirginia, art, drawings">
-    <meta name="author" content="Sara Virgínia">
-    <meta http-equiv="refresh" content="60">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.9);
+        }
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+        .modal-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
 </head>
-
 <body>
-    <!--barra negra-->
-    <h1>sv.wandering</h1>
 
-    <!--subtítulo a rodar para a direita-->
-    <h2>
-        <marquee direction="right">travelling records</marquee>
-    </h2>
-
-    <!--barra de acessos às páginas-->
-    <div class="barraBotoes">
-        <a class="botao" onmouseover="mudaCor(this,'white');" onmouseout="restauraCorOriginal(this);">homepage</a><br>
-        <a class="botao" onmouseover="mudaCor(this, 'white');" onmouseout="restauraCorOriginal(this);"
-            href="./SVR_registos.html">registos</a><br>
-        <a class="botao" onmouseover="mudaCor(this, 'white');" onmouseout="restauraCorOriginal(this);"
-            href="./SVR_sugestoes.html">sugestões</a>
-
-        <!-- CORPO PRINCIPAL DA PÁGINA-->
-        <!--grelha-->
+<div class="container">
+    <h1>Meu Portfólio</h1>
+    <div class="gallery">
+        <img src="foto1.jpg" alt="Foto 1" onclick="openModal('foto1.jpg')">
+        <img src="foto2.jpg" alt="Foto 2" onclick="openModal('foto2.jpg')">
+        <img src="foto3.jpg" alt="Foto 3" onclick="openModal('foto3.jpg')">
+        <!-- Adicione mais imagens conforme necessário -->
     </div>
-    <div class="matriz">
-
-        <!--coluna esquerda-->
-        <div class="caixasFixas colunaEsquerda">
-            <img src="./imagensSVR/caminhante.jpg">
-        </div>
-
-        <!--coluna direita-->
-        <div class="caixasFixas colunaDireita">
-            <a class="botaoFixo" href="https://www.instagram.com/saravirginia.wandering/"
-                onmouseover="mudaCor(this,'white');" onmouseout="restauraCorOriginal(this);">Segue-nos!</a>
-            <p>
-                In the realm of <span id="destaque">wandering lovers</span>, the journey becomes their shared canvas,
-                woven with the threads of exploration and discovery. Whether traversing landscapes by foot or entrusting
-                their hearts to the rhythmic hum of a train, they embark on a collective adventure.
-            </p>
-            <p>
-                Through the dance of locomotion, their travel records unfold like a cherished anthology. Each step or
-                rail traversed leaves an indelible mark, a testament to the places explored and the moments crystallized
-                in time. The pages of their travelogue are not mere words but a vibrant tapestry of drawings and photos,
-                capturing the essence of their sojourns.
-            </p>
-            <p>
-                In the silent compartments of trains, they find solace in the fleeting scenery outside the window, the
-                changing panoramas mirroring the evolving chapters of their shared narrative. Footsteps echo in bustling
-                city streets, on quiet nature trails, and amidst the historical echoes of ancient ruins, each imprint a
-                tale of togetherness.
-            </p>
-            <p>
-                The camera lens becomes a storyteller, freezing instants of joy, <strong>contemplation</strong>, and
-                serenity. A sketchpad transforms into an artist's haven, translating emotions onto paper with strokes of
-                pen or pencil. Their travel records transcend the conventional, becoming a kaleidoscope of experiences
-                that transcend the limitations of language.
-            </p>
-            <p>
-            <details>
-                <summary>MOSTRA / OCULTA</summary>
-                <p>
-                    <i id="destaque">Wandering lovers find a home in the nomadic rhythm of their shared expeditions.
-                        Footprints left on cobbled streets, train tracks disappearing into the horizon – these become
-                        the
-                        visual poetry that binds their souls. In the realm of wanderlust, their love story is etched not
-                        only in words but in the very fabric of the landscapes they traverse.</i>
-                </p>
-            </details>
-            </p>
-            <p>
-            <table>
-                <tr>
-                    <th colspan="2">NEXT TOURS</th> <!-- para juntar as duas células da primeira linha -->
-                </tr>
-                <tr>
-                    <td>Porto</td>
-                    <td>17 de fevereiro</td>
-                </tr>
-                <tr>
-                    <td>Constância</td>
-                    <td>10 de março</td>
-                </tr>
-                <tr>
-                    <td>Vale do Côa</td>
-                    <td>25 de abril</td>
-                </tr>
-            </table>
-            </p>
-        </div>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
     </div>
+</div>
+
+<script>
+    function openModal(imgSrc) {
+        document.getElementById('modalImg').src = imgSrc;
+        document.getElementById('myModal').style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+</script>
+
 </body>
-<hr />
-<h4>elaborado por Sara Virgínia UPSKILL PowerPlataform 2023-24</h4>
-
 </html>
