@@ -6,17 +6,17 @@
     <title>Portfólio</title>
     <style>
         body {
-            background-color: #162447; /* Alterado para azul escuro */
+            background-color: #fff; /* Alterado para fundo branco */
             font-family: 'Arial Narrow', sans-serif;
-            color: #fff;
+            color: #162447; /* Alterado para azul escuro */
             margin: 0;
             padding: 0;
         }
         .container {
             width: 80%;
             margin: 0 auto;
-            text-align: left; /* Alterado para encostar tudo à esquerda */
-            padding: 20px; /* Adicionado espaço interno para melhor visualização */
+            text-align: left;
+            padding: 20px;
         }
         .intro {
             margin-top: 50px;
@@ -24,43 +24,45 @@
         .profile-img {
             max-width: 300px;
             display: block;
-            margin: 0 auto;
+            margin: 0 auto 20px; /* Alterado para margem inferior */
         }
         .chapter {
             margin-top: 50px;
         }
         .gallery {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 50px;
+            margin-top: 20px; /* Alterado para espaçamento entre as linhas */
         }
         .gallery-item {
-            flex-basis: 30%;
+            display: inline-block; /* Alterado para alinhar as imagens em linha */
+            margin-right: 10px; /* Adicionado espaço entre as imagens */
         }
         .gallery-item img {
-            max-width: 100%;
+            max-width: 200px; /* Alterado para largura máxima */
             display: block;
-            margin: 0 auto;
+        }
+        .gallery-item p {
+            color: #666; /* Alterado para cinzento */
+            font-size: 14px; /* Alterado para tamanho de letra menor */
         }
         hr {
             border: none;
-            border-top: 1px solid #fff; /* Adicionada linha de separação */
-            margin-top: 20px; /* Espaço superior da linha */
-            margin-bottom: 20px; /* Espaço inferior da linha */
+            border-top: 1px solid #162447; /* Alterado para azul escuro */
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="intro">
-            <h2>Sobre Mim</h2>
-            <p>Texto de introdução com 5 linhas.</p>
-            <p>Confira meu perfil no <a href="https://www.linkedin.com/in/sara-virg%C3%ADnia-rocha/">LinkedIn</a>.</p> <!-- Adicionado link para o LinkedIn -->
-        </div>
-        <hr>
         <div class="profile-img">
             <img src="caminho_para_a_sua_fotografia.jpg" alt="Minha Foto">
         </div>
+        <div class="intro">
+            <h2>Sobre Mim</h2>
+            <p>Texto de introdução com 5 linhas.</p>
+            <p>Confira meu perfil no <a href="https://www.linkedin.com/in/sara-virg%C3%ADnia-rocha/">LinkedIn</a>.</p>
+        </div>
+        <hr>
         <div class="chapter">
             <h2>Trabalhos em HTML</h2>
             <p>Texto de introdução sobre os trabalhos em HTML com 5 linhas.</p>
