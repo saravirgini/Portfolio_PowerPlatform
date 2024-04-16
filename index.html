@@ -6,9 +6,9 @@
     <title>Portfólio</title>
     <style>
         body {
-            background-color: #fff; /* Alterado para fundo branco */
+            background-color: #fff;
             font-family: 'Arial Narrow', sans-serif;
-            color: #162447; /* Alterado para azul escuro */
+            color: #162447;
             margin: 0;
             padding: 0;
         }
@@ -18,37 +18,39 @@
             text-align: left;
             padding: 20px;
         }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Alterado para tornar a imagem circular */
+            overflow: hidden; /* Garante que a imagem fica dentro do círculo */
+            float: left; /* Alterado para encostar à esquerda */
+            margin-right: 20px; /* Adicionado espaço entre a imagem e o texto */
+        }
         .intro {
             margin-top: 50px;
-        }
-        .profile-img {
-            max-width: 300px;
-            display: block;
-            margin: 0 auto 20px; /* Alterado para margem inferior */
         }
         .chapter {
             margin-top: 50px;
         }
         .gallery {
-            margin-top: 20px; /* Alterado para espaçamento entre as linhas */
+            margin-top: 20px;
         }
         .gallery-item {
-            display: inline-block; /* Alterado para alinhar as imagens em linha */
-            margin-right: 10px; /* Adicionado espaço entre as imagens */
+            display: inline-block;
+            margin-right: 10px;
         }
         .gallery-item img {
-            max-width: 200px; /* Alterado para largura máxima */
+            max-width: 200px;
             display: block;
         }
         .gallery-item p {
-            color: #666; /* Alterado para cinzento */
-            font-size: 14px; /* Alterado para tamanho de letra menor */
+            color: #666;
+            font-size: 14px;
         }
-        hr {
-            border: none;
-            border-top: 1px solid #162447; /* Alterado para azul escuro */
-            margin-top: 20px;
-            margin-bottom: 20px;
+        h2 {
+            border-bottom: 1px solid #162447; /* Alterado para linha de separação abaixo do título */
+            padding-bottom: 10px; /* Espaçamento entre o título e a linha */
+            margin-bottom: 20px; /* Espaçamento entre os capítulos */
         }
     </style>
 </head>
@@ -62,7 +64,6 @@
             <p>Texto de introdução com 5 linhas.</p>
             <p>Confira meu perfil no <a href="https://www.linkedin.com/in/sara-virg%C3%ADnia-rocha/">LinkedIn</a>.</p>
         </div>
-        <hr>
         <div class="chapter">
             <h2>Trabalhos em HTML</h2>
             <p>Texto de introdução sobre os trabalhos em HTML com 5 linhas.</p>
@@ -78,7 +79,6 @@
                 </div>
             </div>
         </div>
-        <hr>
         <div class="chapter">
             <h2>Trabalhos em PowerApp</h2>
             <p>Texto de introdução sobre os trabalhos em PowerApp com 5 linhas.</p>
@@ -94,7 +94,6 @@
                 </div>
             </div>
         </div>
-        <hr>
         <div class="chapter">
             <h2>Trabalhos em Power BI</h2>
             <p>Texto de introdução sobre os trabalhos em Power BI com 5 linhas.</p>
