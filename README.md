@@ -17,7 +17,7 @@ Explore insights like never before with our Power BI report. Dive deep into your
 
 
 POWER APPS - PHONE:
-"Experience seamless functionality with our mobile app. Designed for on-the-go access, our phone application brings convenience to your fingertips. Stay connected, productive, and informed wherever you are, with intuitive features tailored to enhance your mobile experience."
+Experience seamless functionality with our mobile app. Designed for on-the-go access, our phone application brings convenience to your fingertips. Stay connected, productive, and informed wherever you are, with intuitive features tailored to enhance your mobile experience.
 
 <img width="596" alt="TABLETWelcome2" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/db44b447-3eee-424a-97f4-ed473d05e93b">
 <img width="595" alt="TABLETWelcome1" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/90817f50-83c5-4db1-81ab-5e5d4d901fd1">
@@ -51,7 +51,7 @@ Elevate your productivity with our tablet application. Optimized for larger scre
 
 
 POWER APPS - MODEL-DRIVEN:
-"Transform your data into actionable insights with our data-driven app. Our application leverages the power of data analytics to deliver personalized recommendations, predictive analysis, and real-time insights. Empower your decision-making process with our intuitive and intelligent platform."
+Transform your data into actionable insights with our data-driven app. Our application leverages the power of data analytics to deliver personalized recommendations, predictive analysis, and real-time insights. Empower your decision-making process with our intuitive and intelligent platform.
 
 ![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/07444037-4833-4913-a523-d8e7f3771dbb)
 ![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/0e650fb4-847f-453e-81b7-b8a43c164eee)
