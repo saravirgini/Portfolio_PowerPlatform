@@ -16,7 +16,7 @@ Explore insights like never before with our Power BI report. Dive deep into your
 
 
 
-pOWER APPS - PHONE:
+POWER APPS - PHONE:
 "Experience seamless functionality with our mobile app. Designed for on-the-go access, our phone application brings convenience to your fingertips. Stay connected, productive, and informed wherever you are, with intuitive features tailored to enhance your mobile experience."
 
 <img width="596" alt="TABLETWelcome2" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/db44b447-3eee-424a-97f4-ed473d05e93b">
@@ -33,7 +33,7 @@ pOWER APPS - PHONE:
 
 
 
-pOWER APPS - TABLET:
+POWER APPS - TABLET:
 Elevate your productivity with our tablet application. Optimized for larger screens, our app delivers a rich and immersive user experience. Whether you're working, learning, or entertaining, our tablet app offers versatility and performance for all your needs.
 
 <img width="188" alt="PHONEGymManagment_SeleccaoLocal" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/218f0735-17ad-4236-b16e-4c7376dee099">
@@ -55,6 +55,9 @@ POWER APPS - MODEL-DRIVEN:
 
 ![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/07444037-4833-4913-a523-d8e7f3771dbb)
 ![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/0e650fb4-847f-453e-81b7-b8a43c164eee)
+
+
+                      --------------------- in update ------------------------
 
 
 
