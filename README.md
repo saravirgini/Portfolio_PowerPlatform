@@ -1,12 +1,12 @@
-PORTFÓLIO
+                                                                    ---- P O R T F Ó L I O ----
+                                                                      ---- Sara Virgínia ----
 
 
 Power BI REPORTS:
-"Explore insights like never before with our Power BI report. Dive deep into your data and uncover hidden patterns, trends, and opportunities. Our interactive and visually appealing reports empower you to make informed decisions, driving your business forward."
+Explore insights like never before with our Power BI report. Dive deep into your data and uncover hidden patterns, trends, and opportunities. Our interactive and visually appealing reports empower you to make informed decisions, driving your business forward.
 
 
 pOWER APPS - PHONE:
-
 "Experience seamless functionality with our mobile app. Designed for on-the-go access, our phone application brings convenience to your fingertips. Stay connected, productive, and informed wherever you are, with intuitive features tailored to enhance your mobile experience."
 
 <img width="596" alt="TABLETWelcome2" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/db44b447-3eee-424a-97f4-ed473d05e93b">
@@ -21,7 +21,6 @@ pOWER APPS - PHONE:
 
 
 pOWER APPS - TABLET:
-
 Elevate your productivity with our tablet application. Optimized for larger screens, our app delivers a rich and immersive user experience. Whether you're working, learning, or entertaining, our tablet app offers versatility and performance for all your needs.
 
 <img width="188" alt="PHONEGymManagment_SeleccaoLocal" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/218f0735-17ad-4236-b16e-4c7376dee099">
