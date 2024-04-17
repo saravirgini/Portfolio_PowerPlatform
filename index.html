@@ -11,7 +11,7 @@
     <style>
         body {
             background-color: #000; /* Fundo preto */
-            font-family: 'Arial Narrow', sans-serif;
+            font-family: 'Arial Nova Cond Light', sans-serif;
             color: #000; /* Cor do texto preto */
             margin: 0;
             padding: 0;
@@ -51,15 +51,34 @@
         }
 
         .name {
-            color: #162447; /* Cor do nome igual aos títulos dos capítulos */
-            font-size: 24px; /* Mesmo tamanho de fonte dos títulos dos capítulos */
+            font-family: 'Baguette Script', cursive; /* Tipo de letra para o nome */
+            color: #162447; /* Cor do nome */
+            font-size: 24px; /* Tamanho do nome */
             font-weight: bold; /* Negrito */
-            margin-bottom: 20px; /* Adiciona margem inferior */
+            margin-bottom: 0; /* Remover margem inferior */
         }
 
         .intro {
             color: #000; /* Cor do texto preto */
             text-align: justify; /* Texto justificado */
+            border-top: 1px solid #162447; /* Linha superior */
+            border-bottom: 1px solid #162447; /* Linha inferior */
+            padding: 20px 0; /* Adicionado padding */
+            margin-bottom: 20px; /* Adicionado margem inferior */
+        }
+
+        .intro-icons {
+            text-align: center; /* Centralizar ícones */
+            margin-top: 20px; /* Margem superior */
+        }
+
+        .intro-icons a {
+            display: inline-block; /* Tornar ícones em linha */
+            margin-right: 20px; /* Margem entre os ícones */
+        }
+
+        .intro-icons a:last-child {
+            margin-right: 0; /* Remover margem do último ícone */
         }
 
         .chapter {
@@ -142,6 +161,12 @@
                     we can leverage the Microsoft Power Platform to create smarter, more sustainable cities and
                     communities.</li>
             </ul>
+            <div class="intro-icons">
+                <!-- Ícones para redes sociais -->
+                <a href="https://www.instagram.com/seu_perfil_do_instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/seu_perfil_do_github"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/sara-virg%C3%ADnia-rocha/"><i class="bi bi-linkedin"></i></a>
+            </div>
         </div>
         <div class="chapter">
             <h2><i class="bi bi-code-slash"></i> Trabalhos em HTML</h2>
