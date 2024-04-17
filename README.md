@@ -2,8 +2,10 @@
                                        ----   Sara Virgínia   ----
 
 
+                                          --------------------
+                                          - Power BI REPORTS -
+                                          --------------------
 
-Power BI REPORTS:
 Explore insights like never before with our Power BI report. Dive deep into your data and uncover hidden patterns, trends, and opportunities. Our interactive and visually appealing reports empower you to make informed decisions, driving your business forward.
 
 ![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/ccb17cd4-e114-4ae0-b739-0bdccaeb05b8)
@@ -15,8 +17,10 @@ Explore insights like never before with our Power BI report. Dive deep into your
 
 
 
+                                          -----------------------
+                                          - POWER APPS - PHONE --
+                                          -----------------------
 
-POWER APPS - PHONE:
 Experience seamless functionality with our mobile app. Designed for on-the-go access, our phone application brings convenience to your fingertips. Stay connected, productive, and informed wherever you are, with intuitive features tailored to enhance your mobile experience.
 
 <img width="596" alt="TABLETWelcome2" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/db44b447-3eee-424a-97f4-ed473d05e93b">
@@ -32,8 +36,10 @@ Experience seamless functionality with our mobile app. Designed for on-the-go ac
 
 
 
+                                          ------------------------
+                                          - POWER APPS - TABLET --
+                                          ------------------------
 
-POWER APPS - TABLET:
 Elevate your productivity with our tablet application. Optimized for larger screens, our app delivers a rich and immersive user experience. Whether you're working, learning, or entertaining, our tablet app offers versatility and performance for all your needs.
 
 <img width="188" alt="PHONEGymManagment_SeleccaoLocal" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/218f0735-17ad-4236-b16e-4c7376dee099">
@@ -49,8 +55,10 @@ Elevate your productivity with our tablet application. Optimized for larger scre
 
 
 
+                                          ------------------------------
+                                          - POWER APPS - MODEL-DRIVEN --
+                                          ------------------------------
 
-POWER APPS - MODEL-DRIVEN:
 Transform your data into actionable insights with our data-driven app. Our application leverages the power of data analytics to deliver personalized recommendations, predictive analysis, and real-time insights. Empower your decision-making process with our intuitive and intelligent platform.
 
 ![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/07444037-4833-4913-a523-d8e7f3771dbb)
