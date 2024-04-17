@@ -20,11 +20,18 @@
         .container {
             width: 80%;
             margin: 50px auto;
-            background-color: rgba(173, 216, 230, 0.8); /* Fundo azul clarinho */
+            background-color: #fff; /* Fundo branco */
             border-radius: 20px;
             overflow: hidden;
             padding: 20px; /* Adicionado padding */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra à volta do container */
+            text-align: left; /* Alinhado à esquerda */
+        }
+
+        .header-container {
+            background-color: rgba(173, 216, 230, 0.8); /* Fundo azul clarinho */
+            padding: 20px; /* Adicionado padding */
+            border-radius: 20px 20px 0 0; /* Bordas arredondadas apenas na parte superior */
             text-align: center; /* Centralizar conteúdo */
         }
 
@@ -47,11 +54,12 @@
             color: #162447; /* Cor do nome igual aos títulos dos capítulos */
             font-size: 24px; /* Mesmo tamanho de fonte dos títulos dos capítulos */
             font-weight: bold; /* Negrito */
+            margin-bottom: 20px; /* Adiciona margem inferior */
         }
 
         .intro {
-            margin-top: 20px; /* Adicionado um pequeno espaço acima do texto */
             color: #000; /* Cor do texto preto */
+            text-align: justify; /* Texto justificado */
         }
 
         .chapter {
@@ -103,12 +111,14 @@
 
 <body>
     <div class="container">
-        <div class="profile-img">
-            <img src="imagensHide/imgSV2.jpg" alt="Minha Foto">
+        <div class="header-container">
+            <div class="profile-img">
+                <img src="imagensHide/imgSV2.jpg" alt="Minha Foto">
+            </div>
+            <div class="name">
+                <h2>Sara Virgínia</h2>
+            </div> <!-- Nome na mesma linha da fotografia -->
         </div>
-        <div class="name">
-            <h2>Sara Virgínia</h2>
-        </div> <!-- Nome na mesma linha da fotografia -->
         <div class="intro">
             <p>As a seasoned architect and urban designer, I am thrilled to embark on a new chapter in my career—one
                 that revolves around the dynamic world of Information Technology (IT), with a particular emphasis on the
