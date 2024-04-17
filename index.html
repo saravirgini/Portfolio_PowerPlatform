@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-nH8cbbzrS1LHCJEMZ5qEX5By0vxfUf2PQPfrt7zXpX1r8ILWj34uzX+K9gtxf1f2" crossorigin="anonymous">
     <style>
         body {
-            background-color: #162447;
+            background-image: url('fundo.jpg'); /* Alterado para uma imagem de fundo */
+            background-size: cover; /* Garante que a imagem de fundo cubra toda a tela */
             font-family: 'Arial Narrow', sans-serif;
             color: #003171;
             margin: 0;
@@ -17,7 +18,7 @@
         .container {
             width: 80%;
             margin: 50px auto;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8); /* Adicionado um fundo branco semi-transparente */
             border-radius: 20px;
             overflow: hidden;
         }
@@ -33,8 +34,8 @@
             margin-right: 20px;
         }
         .profile-img img {
-            max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
-            height: auto; /* Mantém a proporção da imagem */
+            max-width: 100%;
+            height: auto;
         }
         .intro {
             clear: left;
@@ -48,12 +49,12 @@
         .gallery-item {
             display: inline-block;
             margin-right: 10px;
-            vertical-align: top; /* Alinha as imagens ao topo */
+            vertical-align: top;
         }
         .gallery-item img {
-            width: 100%; /* Garante que todas as imagens tenham a mesma largura */
-            height: 200px; /* Define a altura desejada */
-            object-fit: cover; /* Mantém a proporção da imagem e corta o excesso */
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
         }
         .gallery-item p {
             color: #666;
@@ -64,6 +65,16 @@
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+            color: #003171; /* Cor dos ícones */
+        }
+        .social-icons a:hover {
+            color: #FFD700; /* Cor dos ícones ao passar o mouse */
+        }
     </style>
 </head>
 <body>
@@ -73,12 +84,17 @@
                 <img src="imagensHide/imgSV2blue.jpg" alt="Minha Foto">
             </div>
             <div class="intro">
-                <h2>Sobre Mim</h2>
+                <h2>Sara Virgínia</h2>
                 <p>Texto de introdução com 5 linhas.</p>
                 <p>Confira meu perfil no <a href="https://www.linkedin.com/in/sara-virg%C3%ADnia-rocha/">LinkedIn</a>.</p>
+                <div class="social-icons">
+                    <!-- Ícones de acesso ao Instagram e GitHub -->
+                    <a href="https://www.instagram.com/seu_perfil_do_instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/seu_perfil_do_github"><i class="bi bi-github"></i></a>
+                </div>
             </div>
             <div class="chapter">
-                <h2><i class="bi bi-code-slash"></i> Trabalhos em HTML</h2> <!-- Adicionado ícone Bootstrap -->
+                <h2><i class="bi bi-code-slash"></i> Trabalhos em HTML</h2>
                 <p>Texto de introdução sobre os trabalhos em HTML com 5 linhas.</p>
                 <!-- Adicione aqui os trabalhos em HTML -->
                 <div class="gallery">
@@ -93,7 +109,7 @@
                 </div>
             </div>
             <div class="chapter">
-                <h2><i class="bi bi-lightning"></i> Trabalhos em PowerApp</h2> <!-- Adicionado ícone Bootstrap -->
+                <h2><i class="bi bi-lightning"></i> Trabalhos em PowerApp</h2>
                 <p>Texto de introdução sobre os trabalhos em PowerApp com 5 linhas.</p>
                 <!-- Adicione aqui os trabalhos em PowerApp -->
                 <div class="gallery">
@@ -108,7 +124,7 @@
                 </div>
             </div>
             <div class="chapter">
-                <h2><i class="bi bi-bar-chart-line"></i> Trabalhos em Power BI</h2> <!-- Adicionado ícone Bootstrap -->
+                <h2><i class="bi bi-bar-chart-line"></i> Trabalhos em Power BI</h2>
                 <p>Texto de introdução sobre os trabalhos em Power BI com 5 linhas.</p>
                 <!-- Adicione aqui os trabalhos em Power BI -->
                 <div class="gallery">
