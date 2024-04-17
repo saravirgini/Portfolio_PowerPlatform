@@ -1,104 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-nH8cbbzrS1LHCJEMZ5qEX5By0vxfUf2PQPfrt7zXpX1r8ILWj34uzX+K9gtxf1f2" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-nH8cbbzrS1LHCJEMZ5qEX5By0vxfUf2PQPfrt7zXpX1r8ILWj34uzX+K9gtxf1f2" crossorigin="anonymous">
     <style>
         body {
             background-color: #000; /* Fundo preto */
             font-family: 'Arial Narrow', sans-serif;
-            color: #00204A; /* Azul escuro */
+            color: #000; /* Cor do texto preto */
             margin: 0;
             padding: 0;
         }
+
         .container {
             width: 80%;
             margin: 50px auto;
-            background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+            background-color: rgba(173, 216, 230, 0.8); /* Fundo azul clarinho */
             border-radius: 20px;
             overflow: hidden;
             padding: 20px; /* Adicionado padding */
-            box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra à volta do container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra à volta do container */
+            text-align: center; /* Centralizar conteúdo */
         }
+
         .profile-img {
             width: 150px;
             height: 150px;
             border-radius: 50%; /* Transforma a imagem em círculo */
             overflow: hidden;
-            float: left;
-            margin-right: 40px; /* Afastar um pouco mais da fotografia */
-            box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra à volta da imagem */
+            margin: 0 auto 20px; /* Centraliza a imagem e dá margem inferior */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra à volta da imagem */
         }
+
         .profile-img img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
+
         .name {
-            line-height: 150px; /* Centraliza verticalmente com a imagem */
             color: #162447; /* Cor do nome igual aos títulos dos capítulos */
             font-size: 24px; /* Mesmo tamanho de fonte dos títulos dos capítulos */
             font-weight: bold; /* Negrito */
         }
+
         .intro {
             margin-top: 20px; /* Adicionado um pequeno espaço acima do texto */
+            color: #000; /* Cor do texto preto */
         }
+
         .chapter {
             margin-top: 50px;
         }
+
         .gallery {
             margin-top: 20px;
         }
+
         .gallery-item {
             display: inline-block;
             margin-right: 10px;
             vertical-align: top;
         }
+
         .gallery-item img {
             width: 100%;
             height: 200px;
             object-fit: cover;
         }
+
         .gallery-item p {
             color: #666;
             font-size: 14px;
         }
+
         h2 {
             border-bottom: 1px solid #162447;
             padding-bottom: 10px;
             margin-bottom: 20px;
             color: #162447; /* Cor dos títulos dos capítulos */
         }
+
         .social-icons {
             margin-top: 20px;
         }
+
         .social-icons a {
             margin-right: 10px;
             color: #003171; /* Cor dos ícones */
         }
+
         .social-icons a:hover {
             color: #FFD700; /* Cor dos ícones ao passar o mouse */
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="profile-img">
             <img src="imagensHide/imgSV2.jpg" alt="Minha Foto">
         </div>
-        <div class="name"><h2>Sara Virgínia</h2></div> <!-- Nome na mesma linha da fotografia -->
-<div class="intro">
-    <p>As a seasoned architect and urban designer, I am thrilled to embark on a new chapter in my career—one that revolves around the dynamic world of Information Technology (IT), with a particular emphasis on the Microsoft Power Platform. Allow me to share why this transition is both exciting and promising:</p>
-    <ul>
-        <li><strong>Power Platform Expertise:</strong> With a solid foundation in architecture and urban design, I have immersed myself in mastering various tools within the Microsoft Power Platform, including Power Apps, Power Automate, Power BI, and SharePoint. As a certified PL900 professional, I am well-versed in leveraging these technologies to develop innovative solutions that bridge the gap between design principles and cutting-edge IT.</li>
-        <li><strong>Low-Code and High-Code Proficiency:</strong> My journey into IT represents a deliberate shift toward gaining hands-on experience in both low-code and high-code development. Whether it's building intuitive Power Apps interfaces or diving into complex coding challenges, I am committed to honing my skills across the entire spectrum of software development.</li>
-        <li><strong>Microsoft-Centric Approach:</strong> I am particularly drawn to the Microsoft ecosystem for its comprehensive suite of tools and resources tailored to developers and IT professionals. By aligning myself with Microsoft technologies, I aim to broaden my horizons and explore new avenues for growth and innovation in the IT industry.</li>
-        <li><strong>Transformative Impact:</strong> Join me on this transformative journey as we harness the power of technology to drive meaningful change and shape the future of urban development. Together, we can leverage the Microsoft Power Platform to create smarter, more sustainable cities and communities.</li>
-    </ul>
-</div>
+        <div class="name">
+            <h2>Sara Virgínia</h2>
+        </div> <!-- Nome na mesma linha da fotografia -->
+        <div class="intro">
+            <p>As a seasoned architect and urban designer, I am thrilled to embark on a new chapter in my career—one
+                that revolves around the dynamic world of Information Technology (IT), with a particular emphasis on the
+                Microsoft Power Platform. Allow me to share why this transition is both exciting and promising:</p>
+            <ul>
+                <li><strong>Power Platform Expertise:</strong> With a solid foundation in architecture and urban
+                    design, I have immersed myself in mastering various tools within the Microsoft Power Platform,
+                    including Power Apps, Power Automate, Power BI, and SharePoint. As a certified PL900 professional, I
+                    am well-versed in leveraging these technologies to develop innovative solutions that bridge the gap
+                    between design principles and cutting-edge IT.</li>
+                <li><strong>Low-Code and High-Code Proficiency:</strong> My journey into IT represents a deliberate
+                    shift toward gaining hands-on experience in both low-code and high-code development. Whether it's
+                    building intuitive Power Apps interfaces or diving into complex coding challenges, I am committed to
+                    honing my skills across the entire spectrum of software development.</li>
+                <li><strong>Microsoft-Centric Approach:</strong> I am particularly drawn to the Microsoft ecosystem for
+                    its comprehensive suite of tools and resources tailored to developers and IT professionals. By
+                    aligning myself with Microsoft technologies, I aim to broaden my horizons and explore new avenues
+                    for growth and innovation in the IT industry.</li>
+                <li><strong>Transformative Impact:</strong> Join me on this transformative journey as we harness the
+                    power of technology to drive meaningful change and shape the future of urban development. Together,
+                    we can leverage the Microsoft Power Platform to create smarter, more sustainable cities and
+                    communities.</li>
+            </ul>
+        </div>
         <div class="chapter">
             <h2><i class="bi bi-code-slash"></i> Trabalhos em HTML</h2>
             <p>Texto de introdução sobre os trabalhos em HTML com 5 linhas.</p>
@@ -146,4 +180,5 @@
         </div>
     </div>
 </body>
+
 </html>
