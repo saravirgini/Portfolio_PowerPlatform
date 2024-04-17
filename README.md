@@ -52,3 +52,9 @@ Elevate your productivity with our tablet application. Optimized for larger scre
 
 POWER APPS - MODEL-DRIVEN:
 "Transform your data into actionable insights with our data-driven app. Our application leverages the power of data analytics to deliver personalized recommendations, predictive analysis, and real-time insights. Empower your decision-making process with our intuitive and intelligent platform."
+
+![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/07444037-4833-4913-a523-d8e7f3771dbb)
+![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/0e650fb4-847f-453e-81b7-b8a43c164eee)
+
+
+
