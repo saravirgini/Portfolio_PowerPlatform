@@ -2,8 +2,18 @@
                                        ----   Sara Virgínia   ----
 
 
+
 Power BI REPORTS:
 Explore insights like never before with our Power BI report. Dive deep into your data and uncover hidden patterns, trends, and opportunities. Our interactive and visually appealing reports empower you to make informed decisions, driving your business forward.
+
+![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/ccb17cd4-e114-4ae0-b739-0bdccaeb05b8)
+![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/1b226a25-23b6-4175-b7ed-9e0cc6611a8f)
+![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/529703b9-2c47-419d-9956-de63569a4258)
+![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/d14d7573-6e0b-426e-9c4d-292a93dd7dde)
+![image](https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/7ed01834-83bf-458a-9d22-7da2713fc5c9)
+
+
+
 
 
 pOWER APPS - PHONE:
@@ -20,6 +30,9 @@ pOWER APPS - PHONE:
 <img width="596" alt="TABLETGymManagment" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/9f9edde6-878a-4798-a2a6-24d14c546366">
 
 
+
+
+
 pOWER APPS - TABLET:
 Elevate your productivity with our tablet application. Optimized for larger screens, our app delivers a rich and immersive user experience. Whether you're working, learning, or entertaining, our tablet app offers versatility and performance for all your needs.
 
@@ -32,6 +45,10 @@ Elevate your productivity with our tablet application. Optimized for larger scre
 <img width="188" alt="PHONEWelcome" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/feba2d92-f634-45ea-8436-04241a856fe9">
 <img width="190" alt="PHONERecoveryPass" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/eb4cd711-5414-431f-acad-ed4f8c837e33">
 <img width="158" alt="PHONELogin" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/13d70169-f349-404f-b890-7efcbf906905">
+
+
+
+
 
 POWER APPS - MODEL-DRIVEN:
 "Transform your data into actionable insights with our data-driven app. Our application leverages the power of data analytics to deliver personalized recommendations, predictive analysis, and real-time insights. Empower your decision-making process with our intuitive and intelligent platform."
