@@ -51,14 +51,14 @@ A tablet-optimized canvas app for gym staff, covering user management, gym manag
 A mobile canvas app for gym members — with login, password recovery, gym management features, photo gallery, and record submission.
 
 <img width="188" alt="PHONEWelcome" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONEWelcome.png">
-<img width="158" alt="PHONELogin" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/13d70169-f349-404f-b890-7efcbf906905">
-<img width="190" alt="PHONERecoveryPass" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/eb4cd711-5414-431f-acad-ed4f8c837e33">
-<img width="188" alt="PHONEGymManagment_SeleccaoLocal" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/218f0735-17ad-4236-b16e-4c7376dee099">
-<img width="190" alt="PHONEGymManagment_maqFoto" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/e4ca8a16-db0d-4ac0-96dc-f2d09f71a6c2">
-<img width="189" alt="PHONEGymManagment_GaleriaFotos2" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/511ec915-8bf5-48fe-9036-1ab99f7cc6ac">
-<img width="188" alt="PHONEGymManagment_GaleriaFotos1" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/5cea0d00-2dbe-4163-837a-728ecaa62f28">
-<img width="190" alt="PHONEGymManagment_envioRegistos2" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/9817414d-efc0-4bb6-8866-71915e770920">
-<img width="188" alt="PHONEGymManagment_envioRegistos1" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/d81e8c23-a894-49f5-b668-959b95a58f9d">
+<img width="188" alt="PHONELogin" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONELogin.png">
+<img width="188" alt="PHONERecoveryPass" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONERecoveryPass.png">
+<img width="188" alt="PHONEGymManagment_SeleccaoLocal" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONEGymManagment_SeleccaoLocal.png">
+<img width="188" alt="PHONEGymManagment_maqFoto" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONEGymManagment_maqFoto.png">
+<img width="188" alt="PHONEGymManagment_GaleriaFotos2" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONEGymManagment_GaleriaFotos2.png">
+<img width="188" alt="PHONEGymManagment_GaleriaFotos1" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONEGymManagment_GaleriaFotos1.png">
+<img width="188" alt="PHONEGymManagment_envioRegistos2" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONEGymManagment_envioRegistos2.png">
+<img width="188" alt="PHONEGymManagment_envioRegistos1" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONEGymManagment_envioRegistos1.png">
 
 ---
 
