@@ -50,7 +50,7 @@ A tablet-optimized canvas app for gym staff, covering user management, gym manag
 
 A mobile canvas app for gym members — with login, password recovery, gym management features, photo gallery, and record submission.
 
-<img width="188" alt="PHONEWelcome" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/188f0735-17ad-4236-b16e-4c7376dee099">
+<img width="188" alt="PHONEWelcome" src="https://raw.githubusercontent.com/saravirgini/Portfolio_PowerPlatform/main/PowerGymGirlsAppPhone/PHONEWelcome.png">
 <img width="158" alt="PHONELogin" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/13d70169-f349-404f-b890-7efcbf906905">
 <img width="190" alt="PHONERecoveryPass" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/eb4cd711-5414-431f-acad-ed4f8c837e33">
 <img width="188" alt="PHONEGymManagment_SeleccaoLocal" src="https://github.com/saravirgini/Portfolio_PowerPlatform/assets/161728805/218f0735-17ad-4236-b16e-4c7376dee099">
